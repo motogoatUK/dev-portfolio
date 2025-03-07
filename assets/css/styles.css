@@ -15,6 +15,10 @@ body {
 h1, h2 {
     color:darkblue;
 }
+
+.sharp-corners, .sharp-corners * {
+    border-radius:0;
+}
 /* Header section */
 #hero {
     min-height:500px;
