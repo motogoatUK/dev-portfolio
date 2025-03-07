@@ -8,3 +8,31 @@
 /* global styles */
 
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Poppins&display=swap');
+body {
+    font-family: "Poppins", sans-serif ;
+    background-color: #a4c2d1; /*egg blue*/
+}
+h1, h2 {
+    color:darkblue;
+}
+/* Header section */
+#hero {
+    min-height:500px;
+    padding:5% 7%;
+    /*light grey fallback colour*/
+    background: #dbdcde url("../images/background.webp") 50% 70%/cover;
+}
+/* About Section */
+#about {
+    background-color: white;
+}
+
+/* Portfolio */
+#portfolio {
+    background-color: #dbdcde; /*light grey*/
+}
+
+/* Contact Section */
+#contact {
+    background-color: white;
+}
